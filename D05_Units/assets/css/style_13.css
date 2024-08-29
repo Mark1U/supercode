@@ -1,0 +1,27 @@
+:root{
+    overflow: hidden;
+}
+
+* {
+    font-size: 20px;
+    list-style-type:none;
+    padding:0px;
+    margin: 0px;
+}
+
+img {
+    width: 100vw;
+    height: 100vh;
+}
+
+.centered {
+    background-color: rgba(69, 30, 153, 0.365);
+    font-size: 50px;
+    color:white;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
