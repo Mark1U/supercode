@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu-Regular';
+    background-color: rgb(31 32 36);
+    display: block;
+    color:white;
+}
+
+
+/* #070707, #9d9f9f, #f4f7f8 und #. */
+
+@font-face {
+    font-family: 'Monoton-Regular';
+    src: url(../font/Monoton-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Ubuntu-Regular';
+    src: url(../font/Ubuntu-Regular.ttf);
+}
+
+nav {
+    z-index: 1;
+    height: 45px;
+    /* opacity: .3; */
+    /* background-color: white; */
+    border-bottom:  2px solid #AC8059;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* clear: both; */
+    
+    padding: 15px 0px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 50px;
+}
+
+
+h1 {
+    font-size: 2em;
+    color:white;
+    font-family: 'Ubuntu-Regular';
+}
+
+
+h2 {
+    font-size: 2.5em;
+    color:white;
+    font-family: 'Monoton-Regular';
+}
+
+ul {
+    margin-right: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    list-style: none;
+}
+
+
+a {
+    opacity: 1;
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    top: 0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap:5%;
+}
+
+main div {
+    margin: 0px;
+}
+
+main img {
+    width: 20%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+}
+
+footer img{
+    padding: 0px 0px 20px 40px;
+}
+

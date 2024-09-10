@@ -1,0 +1,43 @@
+* {
+    color:white;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+}
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 50px auto 50px; */
+    /* grid-template-areas: "header header"
+    "sidebar main"
+    "footer footer "; */
+    height: 100vh;
+}
+
+div {
+    /* padding: 10px; */
+    /* border-radius: 12px; */
+    /* margin: 3px; */
+}
+
+.red {
+    background-color: red;
+    /* grid-area: main; */
+
+}
+
+.blue{
+    background-color: blue;
+    /* grid-area: header; */
+    
+}
+
+.green {
+    background-color: green;
+    /* grid-area: sidebar; */
+}
+
+.violet {
+    background-color: darkmagenta;  
+    /* grid-area: footer; */
+} 

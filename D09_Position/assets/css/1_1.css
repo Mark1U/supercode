@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url("../font/Poppins-Regular.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color:white;
+    text-align: right;
+    font-family: 'Poppins-Regular';
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    background-image: url('https://plus.unsplash.com/premium_photo-1688645554172-d3aef5f837ce?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    position: absolute;
+    right: 28%;
+    top:24%;
+    /* border: 2px solid red; */
+}
+
+h1 {
+    position: relative;
+    text-transform: uppercase;
+    top:0;
+    /* border: 2px solid red; */
+}
+
+p {
+    position: relative;
+    top:-20px;
+    /* border: 2px solid red; */
+}
