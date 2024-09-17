@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+
+.circle-container {
+    display: flex;
+    gap: 20px;
+    margin: 100px auto;
+    max-width: 400px;
+    text-align: center;
+    align-items: center;
+}
+
+.circle-container div {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.circle-1 {
+    background: linear-gradient(45deg, rgba(218, 38, 110, 1) 50%, rgba(59, 26, 226, 1) 50%);
+}
+
+.circle-2 {
+    background: linear-gradient(45deg, rgb(0, 255, 85) 50%, rgba(59, 26, 226, 1) 50%);
+}
+
+
+.circle-3 {
+    background: linear-gradient(45deg, rgb(221, 225, 7) 50%, rgb(139, 234, 6) 50%);
+}
+
+
+.circle-4 {
+    background: linear-gradient(45deg, rgb(20, 7, 12) 50%, rgb(16, 219, 237) 50%);
+}

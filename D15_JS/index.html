@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 Kreise</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <h1>Change Background and Text Color</h1>
+    <div class="circle-container">
+        <div class="circle-1"></div>
+        <div class="circle-2"></div>
+        <div class="circle-3"></div>
+        <div class="circle-4"></div>
+    </div>
+
+    <script>
+        document.querySelectorAll(".circle-container div")
+            .forEach(e => {
+                e.addEventListener('click', function () {
+                    console.log('Div was clicked!', this.className, this.style.backgroundColor);
+
+                    switch (this.className) {
+                        case "circle-1":
+                            document.body.style.backgroundColor = "rgba(218, 38, 110, 1)";
+                            document.querySelector("h1").style.color = "rgba(59, 26, 226, 1)";
+                            break;
+
+                        case "circle-2":
+                            document.body.style.backgroundColor = " rgb(0, 255, 85) ";
+                            document.querySelector("h1").style.color = "rgba(59, 26, 226, 1)";
+                            break;
+
+                        case "circle-3":
+                            document.body.style.backgroundColor = "rgb(221, 225, 7)";
+                            document.querySelector("h1").style.color = "rgb(139, 234, 6)";
+                            break;
+
+                        case "circle-4":
+                            document.body.style.backgroundColor = " rgb(20, 7, 12)";
+                            document.querySelector("h1").style.color = "rgb(16, 219, 237)";
+                            break;
+
+                    }
+
+                });
+            })
+
+
+
+    </script>
+</body>
+
+</html>
